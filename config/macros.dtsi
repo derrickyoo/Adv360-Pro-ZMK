@@ -1,3 +1,9 @@
+macro_less_greater: macro_less_greater{
+compatible = "zmk,behavior-macro";
+label = "macro_less_greater";
+#binding-cells = <0>;
+bindings = <&kp LESS_THAN>, <&kp GREATER_THAN>, <&kp LEFT>;
+};
 macro_global: macro_global{
 compatible = "zmk,behavior-macro";
 label = "macro_global";
